@@ -2,7 +2,6 @@
 
 Freelance developer based in France. I build production SaaS products and work on enterprise CMS projects.
 
-Currently on mission at **Groupe Mutuel** (Switzerland) as a Magnolia CMS developer.
 
 ---
 
