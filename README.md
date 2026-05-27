@@ -37,11 +37,24 @@ Currently on mission at **Groupe Mutuel** (Switzerland) as a Magnolia CMS develo
 
 ---
 
+#### Tests
+
+285+ unit tests across production codebases — Vitest, GitHub Actions CI on every repo.
+
+| Repo | Tests | Coverage |
+|---|---|---|
+| cheetahproject | 79 | Planning engine — scheduling, critical path, WBS, cycle detection |
+| qualipilot | 118 | RNQ readiness, billing plans, formatting, audit export |
+| rge-pilot | 57 | Qualification status, deadlines, evidence readiness, utils |
+| bailflow | 31 | Rent cases, payment distribution, severity scoring |
+
+---
+
 #### Currently
 
-- Magnolia CMS Developer @ Groupe Mutuel (CH) - 2026
+- Magnolia CMS Developer @ Groupe Mutuel (CH) — 2026
 - Preparing Magnolia Certified Developer Level 2
 
 ---
 
-*10 SaaS products shipped. All solo. All in production.*
+*10 SaaS products shipped. All solo. All in production. 285 tests.*
