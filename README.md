@@ -51,7 +51,7 @@ Freelance developer based in France. I build production SaaS products and work o
 
 #### Currently
 
-- Magnolia CMS Developer @ Groupe Mutuel (CH) — 2026
+- Magnolia CMS Developer
 - Preparing Magnolia Certified Developer Level 2
 
 ---
