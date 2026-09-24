@@ -1,59 +1,41 @@
-### Noah Piesse - Fullstack Developer & SaaS Builder
+# Noah Piesse — Full-stack Product Engineer
 
-Freelance developer based in France. I build production SaaS products and work on enterprise CMS projects.
+I build vertical SaaS and business software where domain logic, reliability and production constraints matter.
 
+**Core stack:** TypeScript · Next.js · React · PostgreSQL · Prisma / Drizzle · Python · Stripe · Vitest · Playwright
 
----
+**Portfolio:** https://santana64.github.io/portefolio/
 
-#### SaaS Products
+## Selected public work
 
-| Project | Description | Stack | Live |
-|---|---|---|---|
-| CheetahProject | B2B project planning — Gantt, critical path, baselines | Next.js · Prisma · PostgreSQL | [cheetahproject.vercel.app](https://cheetahproject.vercel.app) |
-| ChantierDevis | AI-powered quote generation for construction artisans | Next.js · Claude AI · Stripe | [chantierdevis.fr](https://chantierdevis.fr) |
-| BaiFlow | Property management SaaS for landlords | Next.js · Prisma · Claude AI | [baiflow.vercel.app](https://baiflow.vercel.app) |
-| QualiPilot | ISO / HACCP quality management platform | Next.js · Sentry · Claude AI | [qualipilot-pi.vercel.app](https://qualipilot-pi.vercel.app) |
-| AutoNet | Garage management SaaS for mechanics | Next.js · Prisma · Stripe | [autonet-psi.vercel.app](https://autonet-psi.vercel.app) |
-| INKR | Tattoo artist booking platform — iOS & Android | React Native · Expo · Supabase | - |
-| RGE Pilot | RGE certification tracking for French artisans | Next.js · AWS S3 · Puppeteer | - |
-| Aegis | Full-stack SaaS monorepo — Fastify API + Next.js + TS SDK | Fastify · Turborepo · Prisma | - |
-| Divine OS | Autonomous AI mission orchestrator | Python · Claude API · FastAPI | - |
-| TrustCenter AI | GDPR compliance and governance platform | Next.js · Prisma · Stripe | - |
+### [QualiPilot](https://github.com/santana64/qualipilot)
+Quality and compliance platform with audit workflows, evidence management, billing, AI-assisted analysis and server-generated reports.
 
----
+`Next.js 16` · `TypeScript` · `Prisma` · `PostgreSQL` · `Stripe` · `Anthropic` · `Sentry` · `Vitest` · `Playwright`
 
-#### Stack
+### [ChantierDevis](https://github.com/santana64/chantierdevis)
+Construction quoting and invoicing SaaS with domain calculations, PDF generation, subscriptions and AI-assisted quote generation.
 
-**Frontend** — React · Next.js · TypeScript · Tailwind CSS · React Native (Expo)
+`Next.js 16` · `TypeScript` · `Prisma` · `PostgreSQL` · `Stripe` · `Anthropic` · `Vitest`
 
-**Backend** — Node.js · Fastify · Prisma · PostgreSQL · Supabase
+### [BaiFlow](https://github.com/santana64/baiflow)
+Unpaid-rent case management for landlords: traceable actions, payment allocation, document generation and subscription controls.
 
-**CMS** — Magnolia CMS (light modules · Freemarker · YAML dialogs · JCR)
+`Next.js 16` · `TypeScript` · `Prisma` · `PostgreSQL` · `Stripe` · `PDFKit` · `Vitest`
 
-**Cloud** — Vercel · AWS S3 · Docker
+### [Vert La Planète](https://github.com/santana64/vert-la-planete)
+Client-delivered partner directory and subscription product with tiered access, Stripe billing and PostgreSQL persistence.
 
-**AI** — Claude API (Anthropic) · OpenAI
+`Next.js 15` · `TypeScript` · `Drizzle` · `PostgreSQL` · `Stripe`
 
----
+## Engineering focus
 
-#### Tests
+- Domain modelling before UI complexity.
+- Reproducible builds, migrations and explicit production constraints.
+- Automated tests for business-critical logic and end-to-end flows where they add value.
+- Security-sensitive behaviour documented rather than hidden behind marketing claims.
+- AI-assisted development treated as leverage, with verification remaining the source of truth.
 
-285+ unit tests across production codebases — Vitest, GitHub Actions CI on every repo.
+## Current direction
 
-| Repo | Tests | Coverage |
-|---|---|---|
-| cheetahproject | 79 | Planning engine — scheduling, critical path, WBS, cycle detection |
-| qualipilot | 118 | RNQ readiness, billing plans, formatting, audit export |
-| rge-pilot | 57 | Qualification status, deadlines, evidence readiness, utils |
-| bailflow | 31 | Rent cases, payment distribution, severity scoring |
-
----
-
-#### Currently
-
-- Magnolia CMS Developer
-- Preparing Magnolia Certified Developer Level 2
-
----
-
-*10 SaaS products shipped. All solo. All in production. 285 tests.*
+I am deliberately consolidating the public portfolio around fewer, deeper projects. Repositories that are experiments, incomplete prototypes or historical coursework are not presented here as production systems.
